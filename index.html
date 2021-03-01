@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>FanArts</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="img/logo.png" width="130" height="50">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="https://www.google.com/webhp?authuser=5" target="blank">Google</a></li>
+                        <li><a href="http://av.cdb.edu.sv/index.php" target="blank">Aula Virtual</a></li>
+                        <li><a href="http://www.udb.edu.sv/udb/" target="blank">UDB</a></li>
+                        <li><a href="https://na.leagueoflegends.com/es-es/" target="blank">LoL</a></li>
+                    </ul>
+                </nav>
+                
+                <img src="img/lista.png"class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Tu creatividad es lo más importante</h1>
+                    <p>Envíanos tu FanArt y podrás ser el 
+                    próximo en estar en nuestra galería de creadores</p>
+                    <a href="https://fanart.las.leagueoflegends.com/es_AR/" target="blank">¡Envía ya!</a>
+                </div>
+                <div class="col-2">
+                    <img src="img/bg2.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section -->
+    
+    <div class="container-2">
+        <div class="bloque-1">
+            <h2>Creaciones de la comunidad</h2>
+            <img src="img/bg3.jpg" width="350" height="250">
+            <p>Nos gusta conocer tus propias versiones de los campeones y del universo de League Of Legends. Tu talento es algo que 
+                no se debe apagar, demuestra tus creaciones y podrás estar dentro de nuestra galería de creadores. Tendrás una oportunidad
+                de participar en sorteos y muchas cosas impresionantes al estar dentro de la galería de creadores. ¿QUÉ ESPERAS?
+            </p>
+        </div>
+        <div class="bloque-2">
+            <div class="cajaImg" id="img1">
+                <img src="img/img1.jpeg" width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/superrisu/" target="blank">Superrisu</a></h4>
+            </div>
+            <div class="cajaImg" id="img2">
+                <img src="img/img2.jpeg"  width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/breaking_spines/" target="blank">Breaking_Spines</a></h4>
+            </div>
+            <div class="cajaImg" id="img3">
+                <img src="img/img3.jpeg"  width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/pirateinvicta/" target="blank">Pirate Invicta</a></h4>
+            </div>
+            <div class="cajaImg" id="img4">
+                <img src="img/img4.jpeg"  width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/superrisu/" target="blank">Superrisu</a></h4>
+            </div>
+            <div class="cajaImg" id="img6">
+                <img src="img/img6.jpeg"  width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/robotomojo/" target="blank">RobotMojo</a></h4>
+            </div>
+            <div class="cajaImg" id="img5">
+                <img src="img/img5.jpeg"  width="350" height="350">
+                <h4>Creador: <a href="https://www.instagram.com/songoandaa/" target="blank">SongoAndaa</a></h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer">
+        <div class="container3">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Brandon Ezequiel López Hernández</h3>
+                </div>
+                <div class="footer-col-2">
+                    <h3>Datos</h3>
+                    <ul>
+                        <li>Carnet: <br> 20190108 <br></li><br>
+                        <li>Correo: <br><a href="mailto:estudiante20190108@cdb.edu.sv">estudiante20190108@cdb.edu.sv</a></li>
+                 
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copy"> Copyright 2021 - Zonget Pet</p>
+        </div>
+    </div>
+
+
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px"){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+
+</body>
+
+</html>
